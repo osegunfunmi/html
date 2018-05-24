@@ -1,0 +1,367 @@
+/* iPhone (portrait) */
+@media (max-width: 767px) {
+	body {
+		padding:0;
+		width: 100%;
+		overflow-x:hidden
+	}
+	header {text-align:center}
+	#tagline h2 {
+		line-height: 35px;
+		margin-top: 15px
+	}
+	a.tagline-btn {
+		margin-bottom: 25px;
+		margin-top: 25px
+	}
+	.fixed #logo {
+		float: none;
+		width: 50%;
+		margin-left: 25%
+	}
+	#portfolio-gallery {
+		margin-left: 0
+	}
+	.portfolio-item,.portfolio-item img {
+		width: 320px
+	}
+    .inner {
+      text-align: center;
+    }
+	.gmap {
+		width: 291px;
+		border: 5px solid #ccc;
+		margin: 0 auto;
+	}
+	footer p {
+		text-align: center
+	}
+	.fixed {
+		display:none!important
+	}
+	.single .fixed,.archive .fixed,.category .fixed {
+		display:block!important;
+        height: 100%;
+	}
+	.black-iphone,.white-iphone {
+		width: 332px;
+		margin-left: -12px
+	}
+	#footer-navigation {
+		margin: 0;
+		padding: 0;
+		float: none;
+		width: 100%;
+		display: block
+	}
+	.copyright {
+		float: none;
+		margin-bottom: 15px
+	}
+	#footer-navigation {margin: 0 0 0 85px}
+	.portfolio-item a {
+		pointer-events:none
+	}
+	.over {display:none;}
+	header {
+		min-height: 400px;
+		background:url(../images/stillframe.jpg) no-repeat top center
+	}
+    #top {
+      padding-top: 0;
+      position: absolute;
+    }
+    #content {
+      margin-top: 245px;
+    }
+	#main-menu {
+		margin: 50px 0 0 0px;
+		padding: 0
+	}
+	.single #main-menu-select, .archive #main-menu-select, .category #main-menu-select {
+		margin: 0 auto;
+		padding: 0;
+		float: none;
+	}
+	.single header, .archive header, .category header {
+		min-height: 27px
+	}
+	a.tagline-btn {margin-left: 0}
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	  .single .fixed,.archive .fixed,.category .fixed {
+	   margin-top: 0
+	  }
+	}
+	#comment-area {
+		margin: 0 0 10px -44px;
+		width: 250px
+	}
+	#commentform input,#commentform textarea {
+		width: 240px
+	}
+	.social-share ul li {
+		float: left;
+		margin: 0 0 12px 0;
+		padding: 0;
+		min-width: 10%;
+		max-width: 200px;
+		width: 100%
+	}
+	#full-slider.flexslider .flex-caption,#full-slider.flexslider .flex-direction-nav, #full-slider.flexslider .flex-control-nav {
+		display:none
+	}
+	.fullwidth-slider header {min-height: 180px}
+	.fullwidth-slider #logo  {
+		width: 50%;
+		margin-left: 26%
+	}
+	.fullwidth-slider #main-menu-select {
+		margin-top: -23px
+	}
+	.fullwidth-slider #top {
+		z-index: 1;
+		min-height:160px
+	}
+	.box {
+		margin-top: 5px;
+		width: 95%;
+		display: block;
+		float: left;
+		margin-left: 11px
+	}
+
+}
+
+/* iPhone (landscape) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body {
+		padding:0;
+		/*width:480px;*/
+        width: 100%;
+		overflow-x:hidden
+	}
+	.portfolio-item, .portfolio-item img {
+		width: 100%;
+	}
+	.black-iphone, .white-iphone {
+		margin-left: 70px;
+		width:344px
+	}
+	.gmap {
+		width: 450px
+	}
+    #top {
+      padding-top: 0;
+      position: absolute;
+    }
+    #content {
+      margin-top: 245px;
+    }
+	.single #main-menu-select, .archive #main-menu-select, .category #main-menu-select {
+		margin: 0 auto;
+		padding: 0;
+		float: none;
+	}
+	.single header, .archive header, .category header {
+		min-height: 10px
+	}
+	#footer-navigation {
+		margin: 0 0 0 165px
+	}
+	.content-logo {margin-left: 32px}
+	.fixed #main-menu {
+		margin-left: 0
+	}
+	#main-menu {margin: 50px 0 0 0px}
+	.fixed #logo {
+		float: none;
+		width: 25%;
+		margin-left: 37%
+	}
+	header {
+		min-height: 400px;
+		background:url(../images/stillframe.jpg) no-repeat top center
+	}
+	#comment-area {
+		margin: 0 0 10px 0;
+		width: 325px
+	}
+	#commentform input, #commentform textarea {
+		width: 304px
+	}
+	#full-slider.flexslider .flex-caption,#full-slider.flexslider .flex-direction-nav, #full-slider.flexslider .flex-control-nav {
+		display:none
+	}
+	.fullwidth-slider header {min-height: 270px}
+	.box {
+		margin-top: 5px;
+		width: 84%;
+		display: block;
+		float: left;
+		margin-left: 44px
+	}
+
+}
+
+/* iPad (portrait) */
+@media (min-width: 768px) and (max-width: 979px) {
+	header {
+		min-height: 80%;
+		background:url(../images/stillframe.jpg) no-repeat top center;
+        background-size:cover;
+	}
+    .fixed #main-menu {
+      float: right;
+    }
+	.single #main-menu-select, .archive #main-menu-select, .category #main-menu-select {
+		margin: 0 5px 0 0;
+		padding: 0;
+		float: left
+	}
+	.single header, .archive header, .category header {
+		min-height: 10px;
+		background:transparent
+	}
+	.single .fixed, .archive .fixed, .category .fixed {
+		margin-top: 0;
+		display: block!important;
+	}
+	#searchform2 input {
+		width: 142px;
+	}
+	body {
+		padding:0;
+		/*width:768px;*/
+		overflow-x:hidden
+	}
+	header {text-align:center}
+	#filters li {margin: 0 30px 0 0}
+	.content-box {
+		text-align: center;
+		width: 47%;
+		margin-bottom:15px
+	}
+	#tagline h2 {
+		line-height: 35px;
+		margin-top: 15px
+	}
+	a.tagline-btn {
+		margin-bottom: 25px;
+		margin-top: 25px
+	}
+	.fixed  {
+		display:none!important;
+	}
+	#portfolio-gallery {
+		margin-left: 42px
+	}
+	.portfolio-item,.portfolio-item img {
+		width: 320px
+	}
+	.gmap {
+		width: 291px;
+		border: 5px solid #ccc;
+		margin-left: -50px;
+		margin-top: -50px
+	}
+	footer p {
+		text-align: center
+	}
+	.fixed {
+		padding: 0
+	}
+	.black-iphone,.white-iphone {
+		width: 344px;
+		margin-left: 190px
+	}
+	#footer-navigation {
+		margin: 0;
+		padding: 0;
+		float: none;
+		width: 100%;
+		display: block
+	}
+	.copyright {
+		float: none;
+		margin-bottom: 15px
+	}
+	#footer-navigation {margin: 0 0 0 288px}
+	.portfolio-item a {
+		/*pointer-events:none*/
+	}
+	a.tagline-btn {margin-left: 0}
+	#main-menu {
+		margin: 50px 0 0 0;
+	}
+	span.over {
+		height: 230px;
+		width: 320px
+	}
+	.zoom-icon {top: 25%;left: 31%}
+	.align-right {margin-top: 88px}
+	.fullwidth-slider header {
+		min-height: 42%
+	}
+	.flex-caption {
+		display:none
+	}
+	#full-slider.flexslider .flex-control-nav {
+		bottom: 3%;
+		left: 44%
+	}
+	#full-slider.flexslider .flex-direction-nav a {top: 73%}
+	.link-icon {top: 48%;left: 42%}
+	.zoom-icon {left: 42%}
+	.box {
+		width: 95%
+	}
+}
+
+/* iPad (landscape) */
+@media (min-width: 979px) and (max-width: 1025px) {
+	header {
+		min-height:600px;
+		background:url(../images/stillframe.jpg) no-repeat top center
+	}
+	.supervideo {display:none!important}
+	span.over {
+		height: 302px;
+		width: 420px
+	}
+	.single	header {
+	  max-height:auto;
+	  height:auto;
+	}
+		.single #main-menu-select, .archive #main-menu-select, .category #main-menu-select {
+		margin: 0 5px 0 0;
+		padding: 0;
+		float: left
+	}
+	.single header, .archive header, .category header {
+		min-height: 10px;
+		background:transparent
+	}
+	.single .fixed, .archive .fixed, .category .fixed {
+		margin-top: 0;
+		display: block!important;
+	}
+
+	#teaser {display:none}
+
+	.portfolio-item, .portfolio-item img, .gmap {
+		width: 420px
+	}
+	.align-right {margin-top: 88px}
+
+	.flex-caption {left: 50%;top: 51.5%;margin-left: -240px;}
+	#full-slider.flexslider .flex-control-nav {bottom: 0}
+	#full-slider.flexslider .flex-direction-nav a {top: 70%}
+	.fullwidth-slider header {min-height: 576px}
+	.custom-section h3 {margin-top: 11px}
+}
+
+/* desktop (1025 to 1200) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+	#teaser {top: 45%; width: 100%;}
+	.gmap {width: 423px}
+}
